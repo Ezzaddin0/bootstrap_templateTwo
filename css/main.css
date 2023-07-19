@@ -1,0 +1,117 @@
+:root {
+    --main-color: #17191e;
+    --yellow-color: #ffda00;
+}
+body {
+    font-family: 'Abel', sans-serif;
+    scroll-behavior: smooth;
+}
+.btn-page {
+    border-color: var(--yellow-color);
+}
+.btn-page:hover {
+    background-color: var(--yellow-color);
+}
+/* start header */
+.header {
+    background-color: var(--main-color);
+    width: 100%;
+}
+.header .container nav img {
+    width: 220px;
+}
+.header .container nav button {
+    background-color: var(--yellow-color);
+}
+.header .container .landing h1 {
+    color: var(--yellow-color);
+    font-size: 100px;
+}
+.header .container .landing p {
+    font-size: 12px;
+}
+.header .footer {
+    background-color: var(--yellow-color);
+}
+/* end header */
+/* start details */
+.details .container .row div svg {
+    background-color: var(--yellow-color);
+    padding: 10px;
+}
+.details .container .row div h3 {
+    color: var(--yellow-color);
+}
+.details .footer {
+    background-color: var(--main-color);
+}
+.details .footer .container .row div svg {
+    background-color: transparent;
+    color: var(--yellow-color);
+}
+.details .footer .container .row div p {
+    color: var(--yellow-color);
+}
+/* end details */
+/* start works */
+.works .container .info h3 {
+    color: var(--yellow-color);
+}
+.works .container-fluid .row >* {
+    padding: 0 !important;
+}
+@media (min-width: 992px) {
+    .works .container-fluid .row.p-0 img {
+        height: 100%;
+    }
+}
+.works .footer {
+    background-color: var(--main-color);
+}
+.works .footer .container h2 {
+    color: var(--yellow-color);
+}
+.works .footer .container .brands img {
+    width: 100px;
+}
+.works .footer .container .control div {
+    width: 5px;
+    height: 5px;
+    background-color: #ccc;
+}
+.works .footer .container .control .square-2 {
+    background-color: var(--yellow-color);
+}
+/* end works */
+/* start contact */
+.contact .container h3 {
+    color: var(--yellow-color);
+}
+.contact .container-fluid {
+    background-color: var(--yellow-color);
+}
+.contact .container-fluid .container .row svg {
+    padding: 20px;
+    background-color: var(--main-color);
+    color: white;
+}
+.contact .container-fluid .container .row p {
+    margin: auto 0;
+}
+.contact .container-fluid .container .row div {
+    justify-content: start !important;
+    margin-bottom: 15px;
+}
+.contact .footer {
+    background-color: var(--main-color);
+}
+.contact .footer .container p span {
+    color: var(--yellow-color);
+}
+.contact .footer .container > svg {
+    color: white;
+    background-color: var(--yellow-color);
+    right: 15%;
+    bottom: 10px;
+}
+/* end contact */
